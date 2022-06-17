@@ -1,0 +1,366 @@
+@media screen and (max-width: 768px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    ::-webkit-scrollbar {
+        width: 0;
+    }
+
+    
+
+    body {
+        width: 768px;
+    }
+    
+
+    header {
+        width: 768px;
+    }
+   
+
+
+    nav {
+        margin-right: 20px;
+    }
+    
+    #section1 {
+        width: 768px;
+        height: 300px;
+    }
+
+    #left {
+        position: relative;
+        width: 100%;
+        height: 300px;
+    }
+    #img img{
+        width: 100%;
+        height: 300px;
+    }
+    #text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #text h1 {
+        font-size: 24px;
+        color: white;
+        margin-bottom: 50px;
+    }
+    #text h2 {
+        font-size: 24px;
+        color: white;
+        margin-bottom: 5px;
+    }
+    #text p {
+        font-size: 12px;
+        color: white;
+        margin-bottom: 35px;
+    }
+    #text hr{
+        width: 500px;
+        margin-bottom: 15px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    button {
+        width: 140px;
+        height: 40px;
+        background-color: #FA6980;
+        border-radius: 10px;
+        border: none;
+        cursor: pointer;
+        padding-top: 8px;
+        color: white;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    #right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        display: none;
+    }
+
+    
+    #texts {
+        width: 80%;
+    }
+
+    #inf {
+        margin-bottom: 35px;
+    }
+
+    #info {
+        margin-bottom: 25px;
+        display: inline-block;
+    }
+    
+    #top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+    #top h1 {
+        font-size: 12px;
+        color: black;
+    }
+    
+    #middle h1 {
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+
+    #middle h2,p {
+        font-size: 8px;
+        margin-bottom: 10px;
+    }
+    
+    #bottom {
+        display: flex;
+        align-items: center;
+    }
+
+    
+    span {
+        margin-left: 10px;
+    }
+    .logo {
+        font-family: 'Material Icons';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 1;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+      }
+
+      #section2 {
+        background-color: #F6F8F9;
+        width: 768px;
+        height: 100%;
+        margin-bottom: 50px;
+    }
+  
+    #name h1 {
+        font-size: 12px;
+        color: black;
+        padding-top: 15px;
+        margin-bottom: 15px;
+    }
+  
+    #trending {
+        display: flex;
+        justify-content: space-between;
+    }
+    #blockk {
+        display: none;
+    }
+    #mid {
+        margin: auto;
+        width: 500px;
+    }
+  
+    #block {
+        width: 200px;
+        background-color: white;
+        border-radius: 5px;
+        margin: 5px;
+    }
+  
+    #tt {
+        width: 135px;
+        margin-left: 20px;
+    }
+  
+    #tt h1 {
+        margin-top: 11px;
+        margin-bottom: 2px;
+        color: black;
+    }
+    #tt span, p {
+        color: grey;
+    }
+    
+    #bottom span,i {
+        margin-bottom: 15px;
+    }
+    
+    #name {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #block img {
+          width: 100%;
+          border-top-left-radius: 2px;
+          border-top-right-radius: 2px;
+          height: 90px;
+      }
+      
+    #images {
+        width: 100%;
+      }
+
+      #left-img {
+        float: left;
+        width: 50%;
+  }
+  
+  #photo {
+      position: relative;
+      margin-bottom: 15px;
+  }
+  
+  #infoo  {
+      position: absolute;
+      top: 35%;
+      left: 25px;
+  }
+  
+  #photo h2{
+      color: rgb(255, 255, 255);
+  }
+  
+  #photo h1 {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      color: white;
+      font-size: 8px;
+  }
+  
+  #photo img {
+      width: 500px;
+      height: 200px;
+      border-radius: 2px;
+  }
+  #right-img{
+    width:44%;
+  }
+  
+ #right-photo {
+    display: none;
+ }
+
+ #rightt-photo img {
+    width: 180px;
+    height: 105px;
+    border-radius: 2px;
+ }
+
+  #right-photo img {
+    width: 180px;
+    height: 105px;
+    border-radius: 2px;
+}
+
+
+footer {
+    background-color: #A6ADB4;
+    height: 300px;
+    padding-top: 30px;
+    width: 768px;
+}
+
+
+#footer {
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+#footer-container {
+    margin-left: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+}
+#left-footer {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    line-height: 40px;
+}
+
+#left-footer ul {
+    list-style: none;
+}
+
+#left-footer a {
+    text-decoration: none;
+    color: rgb(216, 211, 211);
+    margin-left: 16px;
+}
+
+#middle-footer input {
+    margin-bottom: 10px;
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding-left: 20px;
+    background-color: #A6ADB4;
+    background: url('./img/search.png');
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-position: 90%;
+    margin-left: 200px;
+    display: none;
+}
+#right-footer {
+    display: none;
+}
+#new {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#images2 {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+
+#iconp  {
+    display: none;
+}
+#iconp img {
+    display: none;
+}
+
+h3 {
+    display: none;
+}
+
+#phonretrenting {
+    display: none;
+}
+
+#images3 {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
+#open {
+    display: none;
+}
+}
+
+

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: yellow;
+}
+
+ul li {
+    list-style: none;
+    text-align: center;
+    line-height: 2;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#id {
+    line-height: 2;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#id p {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
